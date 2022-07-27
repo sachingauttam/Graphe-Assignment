@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+}
+body {
+  font: 12px/1.4 Helvetica, sans-serif;
+  background: black;
+  color: #333;
+}
+
+.mainContainer {
+  width: 70vw;
+  margin: 10vh auto;
+  height: 80vh;
+  padding: 8px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.firstNavbar {
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 0;
+  height: 10vh;
+}
+.secondNavbar {
+  overflow: hidden;
+  background-color: white;
+  margin-left: 45%;
+  margin-top: 0;
+  height: 5vh;
+}
+.firstNavbar {
+  display: flex;
+  justify-content: space-between;
+}
+.leftNavbar {
+  margin-left: 100px;
+}
+.midNavbar {
+  display: flex;
+  align-items: center;
+}
+/* .firstNavbar .rightNavbar,
+.midNavbar,
+.leftNavbar {
+  float: left;
+  display: block;
+  text-align: center;
+  /* padding: 14px 16px;  
+  text-decoration: none;
+  height: 15vh;
+}
+.rightNavbar {
+  margin-left: 5vh;
+  margin-right: 20vh;
+}
+
+.firstNavbar .leftNavbar {
+  float: right;
+}
+.leftNavbar {
+  margin-right: 10vh;
+} */
+
+.profile {
+  border: 4px solid gainsboro;
+  border-radius: 50%;
+}
+.store {
+  background: gainsboro;
+  border-radius: 50px;
+  padding: 15px 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.wishlist-value {
+  font-size: 2vh;
+  color: lightslategrey;
+  background: gainsboro;
+  border-radius: 50px;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0vh;
+  padding-bottom: 0.5vh;
+}
+.cap {
+  font-size: 30px;
+  color: lightslategrey;
+}
+.cap1 {
+  display: block;
+  margin-top: -130%;
+  margin-left: 30%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn1 {
+  width: 100%;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+.btn2 {
+  width: 100%;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+.add {
+  position: absolute;
+  width: 159px;
+  margin-top: -15%;
+  margin-left: 30%;
+  z-index: 5;
+  height: 10px;
+  /* position: absolute;
+width: 95px;
+height: 95px;
+left: 45%;
+top: 50%;
+z-index: 6;
+background: rgba(145, 145, 145, 0.6);
+border: 15px;
+border-radius: 28px; */
+}
+
+.fruitImg {
+  position: relative;
+  z-index: 1;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 10%;
+  margin-right: 20vh;
+}
+
+.fruitName {
+  /* position: absolute;
+    top: 0px;
+    width:50%;
+    font-size: 100px; */
+
+  position: absolute;
+  width: 25%;
+  /* height: 306px; */
+  /* left: 401px; */
+  margin-left: 0%;
+  top: 25%;
+
+  font-family: "MADE Soulmaze Outline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 232px;
+  line-height: 306px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.fruitName1 {
+  font-size: 50px;
+}
+.value {
+  font-size: 50px;
+}
+
+.reciept {
+  position: relative;
+  bottom: 0px;
+  left: 9px;
+  background-color: lightgray;
+  width: 203px;
+  height: 186px;
+  padding: 15px;
+  border-radius: 10px 10px 0px 0px;
+  float: right;
+  margin-right: 50px;
+  margin-left: 90px;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Graphe Assignment</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/9bcc594bdfe1e6eb8742a1fc4e31565d?family=MADE+Soulmaze+Outline"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <nav>
+        <div class="firstNavbar" id="myTopnav">
+          <div class="rightNavbar">
+            <img
+              src="image/logo.png"
+              style="width: 15vh; margin-left: 45px; margin-top: 30px"
+            />
+          </div>
+          <div class="midNavbar">
+            <img
+              class="profile"
+              src="image/profile pic.png"
+              style="width: 6vh"
+            />
+            <span class="store">
+              <img class="bag" src="image/bag.png" style="width: 4vh" />
+            </span>
+            <img src="image/location.png" style="width: 5vh" />
+            <span class="cap"> Los Angeles </span>
+          </div>
+          <div class="leftNavbar">
+            <img src="image/cart.png" style="width: 5vh; margin-top: 30px" />
+            <span class="cap cap1">14</span>
+          </div>
+        </div>
+        <div class="secondNavbar">
+          <span class="wishlist-value">34</span>
+          <img src="image/wishlist.png" alt="wishList" style="width: 4vh" />
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="leftContainer">
+          <img
+            src="image/left arrow.png"
+            onclick="plusSlides(-1)"
+            class="btn1"
+            alt="arrow"
+          />
+          <div class="fruitName1">abc</div>
+        </div>
+        <div class="midContainer">
+          <div class="mySlides fade">
+            <img class="fruitImg" src="image/pear.png" alt="img" />
+            <div class="fruitName">PEAR</div>
+          </div>
+          <div class="mySlides fade">
+            <img class="fruitImg" src="image/apple.png" alt="img" />
+            <div class="fruitName">Apple</div>
+          </div>
+          <div class="mySlides fade">
+            <img class="fruitImg" src="image/orange.png" alt="img" />
+            <div class="fruitName">Orange</div>
+          </div>
+        </div>
+
+        <div class="rightContainer">
+          <img
+            src="image/right arrow.png"
+            onclick="plusSlides(1)"
+            class="btn2"
+            alt="arrow"
+          />
+          <div class="fruitName1">abc</div>
+        </div>
+      </div>
+      <div class="add">
+        <a href="#"><img src="image/add.png" width="100%" alt="add" /></a>
+        <span class="value">$0.30/kg</span>
+      </div>
+      <div class="footer">
+        <img
+          src="image/message.png"
+          style="width: 5vh; margin-top: 10px"
+          alt="message"
+        />
+        <div class="reciept">
+          <span style="font-size: 25px">TOTAL</span><br />
+          <span style="font-size: 25px">$68</span><br />
+          <span>TAX INCLUDED</span>
+          <img src="image/receipt.png" style="background-color: gray" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
